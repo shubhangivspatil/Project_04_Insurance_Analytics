@@ -2,6 +2,8 @@
 
 
 **Final Report: Insurance Analytics and Prediction**
+
+ 
  **Project Overview**
  The objective of this project is to leverage advanced analytics techniques, including classification, regression, and clustering, to extract valuable insights from insurance data. 
  By analyzing a comprehensive dataset, the project aims to enhance decision-making processes, optimize risk classification, and improve customer engagement and retention.
