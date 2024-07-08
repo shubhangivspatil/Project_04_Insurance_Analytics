@@ -14,6 +14,7 @@
  Exploratory Data Analysis (EDA)
  Distribution of Annual Income: Visualized using a histogram, showing a wide range of incomes with a concentration around certain values.
  Correlation Heatmap: Displayed correlations between numeric features, highlighting relationships such as a strong positive correlation between 'Annual_Income' and 'Monthly_Inhand_Salary'.
+
 ** Regression Analysis**
  Model: Linear Regression
  Target Variable: Annual Income
@@ -21,9 +22,11 @@
  Performance Metrics:
  Mean Squared Error (MSE): 7661667.29
  R-squared: 0.9948
+
  Key Insights: The model explains a significant portion of the variance in annual income, indicating strong predictive power. High R-squared value suggests the model fits the data well.
  **Classification Analysis**
  Model: Decision Tree Classifier
+ 
  Target Variable: Credit Score
  Features: Financial and demographic variables excluding 'Credit_Mix' and 'Name'.
  Performance Metrics:
@@ -34,7 +37,9 @@
  Class 2: Precision: 0.77, Recall: 0.78, F1-score: 0.77
  Confusion Matrix: Displayed misclassifications and correct classifications for each class.
  Key Insights: The classifier performs well, particularly for classifying higher credit scores. The accuracy and F1-scores indicate reliable model performance.
+
 ** Clustering Analysis**
+ 
  Model: K-Means Clustering
  Optimal Clusters: 4 (based on the elbow method)
  Cluster Summary:
@@ -43,6 +48,7 @@
  Cluster 2: Younger policyholders, lower income, numerous bank accounts.
  Cluster 3: Older policyholders, high income, fewer bank accounts.
  Visualizations: Scatter plots showing clusters with key features such as 'Age' and 'Annual_Income'.
+ 
  Recommendations
  Based on Clustering Analysis:
 
@@ -70,9 +76,12 @@
  Provide premium services and exclusive offers.
  Promote basic financial literacy and savings accounts.
  Suggest investment plans and wealth management services.
-** Conclusion**
+
+**** Conclusion****
  This project successfully demonstrated the application of regression, classification, and clustering techniques to extract valuable insights from insurance data. 
  The analyses provided actionable recommendations for tailored marketing strategies, improved fraud detection, and optimized premium pricing.
+
+ 
  **Future work**
  Future work could involve incorporating additional data sources and exploring more advanced machine learning models to further enhance predictive accuracy and customer segmentation.
 
